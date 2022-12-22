@@ -1,4 +1,5 @@
-import "./App.css";
+import "./AppDesktop.css";
+import "./AppMobile.css";
 
 function App() {
   return (

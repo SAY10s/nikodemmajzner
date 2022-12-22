@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap");
+
+@media only screen and (min-width: 600px) {
+  .black {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25vh;
+    background: rgb(7, 9, 11);
+    background: linear-gradient(
+      0deg,
+      rgba(7, 9, 11, 1) 0%,
+      rgba(7, 9, 11, 0) 100%
+    );
+  }
+  .menu {
+    position: fixed;
+    right: 45px;
+    top: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 45px;
+  }
+  .menu div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15px;
+  }
+  .menu hr {
+    border-color: #e5eaf0;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+  }
+  #hr1 {
+    width: 60px;
+  }
+  #hr2 {
+    width: 48px;
+  }
+  #hr3 {
+    width: 36px;
+  }
+  .App {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+
+    font-family: "Roboto Slab";
+    color: #e5eaf0;
+  }
+  .logo {
+    margin: 200px 150px;
+  }
+  .SAY10s {
+    font-size: 140px;
+  }
+  .titles {
+    color: #919b9a;
+    font-size: 46px;
+  }
+  .titles div div hr {
+    border-color: #919b9a;
+    width: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+  }
+
+  .titles div {
+    display: flex;
+  }
+  .software,
+  .developer {
+    width: fit-content;
+  }
+  .software {
+    padding-right: 20px;
+  }
+  .developer {
+    padding-left: 20px;
+  }
+  .softwareHR,
+  .developerHR {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
