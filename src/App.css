@@ -11,6 +11,36 @@
     rgba(7, 9, 11, 0) 100%
   );
 }
+.menu {
+  position: fixed;
+  right: 45px;
+  top: 45px;
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  height: 45px;
+}
+.menu div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 15px;
+}
+.menu hr {
+  border-color: #e5eaf0;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+}
+#hr1 {
+  width: 60px;
+}
+#hr2 {
+  width: 48px;
+}
+#hr3 {
+  width: 36px;
+}
 .App {
   display: flex;
   width: 100%;
@@ -29,7 +59,7 @@
   color: #919b9a;
   font-size: 46px;
 }
-hr {
+.titles div div hr {
   border-color: #919b9a;
   width: 100%;
   border-width: 3px;
